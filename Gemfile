@@ -18,6 +18,7 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'devise', '~> 4.2.1'
 gem 'simple_form', '~> 3.4'
 
+
 gem 'capistrano-rails', group: :development
 
 group :development, :test do
@@ -31,4 +32,15 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+#gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#gem 'bootstrap', '~> 4.0.0.alpha6'
+
+#source 'https://rubygems.org'
+
+#group :development, :test do
+#  gem 'jekyll', '~> 3.4.2'
+#  gem 'jekyll-redirect-from', '~> 0.12.1'
+#  gem 'jekyll-sitemap', '~> 1.0.0'
+#  gem 'scss_lint', '~> 0.52.0'
+#end
