@@ -1,2 +1,19 @@
-%h1 HAML based placeholder
+#banner
+	.banner_content
+		%h1 File Cabinet
+		%p Your Life's Work, Organized, Always
+		%button= link_to "Enter", new_user_registration_path
 
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Organize
+				%p There's no greater insight to be had into the culture of a workplace
+				than the signs people print out and hang up in the lounge.
+
+#bottom_cta
+	.wrapper
+		%h2 Go Ahead!
+		%br
+		%button= link_to "Join Now"
