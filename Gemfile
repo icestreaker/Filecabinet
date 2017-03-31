@@ -22,7 +22,6 @@ gem 'capistrano-rails', group: :development
 
 group :development, :test do
   gem 'byebug', platform: :mri
-  gem 'sqlite3'
 end
 
 group :development do
@@ -33,18 +32,7 @@ group :development do
 end
 
 group :production do
+  gem 'rails_12factor'
   gem 'pg'
+  ruby "2.4.0"
 end
-
-#gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-#gem 'bootstrap', '~> 4.0.0.alpha6'
-
-#source 'https://rubygems.org'
-
-#group :development, :test do
-#  gem 'jekyll', '~> 3.4.2'
-#  gem 'jekyll-redirect-from', '~> 0.12.1'
-#  gem 'jekyll-sitemap', '~> 1.0.0'
-#  gem 'scss_lint', '~> 0.52.0'
-#end
